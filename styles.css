@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, #e84393,  #ff7675);
+}
+
+#weather {
+    background: url(./img/cold.png) no-repeat;
+    background-size: cover;
+    padding:0 40px;
+    width: 340px;
+    margin: 40px 0;
+    border-radius: 8px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+.name-app {
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.search {
+    border-radius:8px 0 8px 0;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 8px 16px;
+    color: rgb(162, 141, 141);
+    background-color: rgba(0, 0, 0);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+    border-bottom: 4px solid rgb(189, 33, 121);
+    transition: 0.4s ease-in-out;
+}
+
+.search:focus {
+    border-bottom: 4px solid rgb(125, 17, 66);
+    border-radius:0px 8px 0px 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.submit {
+    width: 100%;
+    background-color: orange;
+    border: none;
+    padding: 6px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.submit:active {
+    opacity: 0.7;
+}
+
+.reminder {
+    font-size: 14px;
+    color: #333;
+}
+
+.capital {
+    font-size: 26px;
+    margin-top: 6px;
+}
+
+.time {
+    margin-bottom: 12px;
+    margin-top: -8px;
+}
+
+.temp {
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 55px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(149, 157, 165, 0.2) 2px 2px 0 2px;
+    border-radius: 10px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+.short-desc {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.more-desc {
+    text-align: left;
+    font-size: 16px;
+}
